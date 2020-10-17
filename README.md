@@ -24,10 +24,11 @@
 
 ## PS
 
-- 这里用到了xiaoyao同学整理的我们所etit的课程密码，非常感谢见!(csv/pwdtest.csv)
+- 这里用到了xiaoyao同学整理的我们所etit的课程密码，非常感谢见[这里](csv/pwdtest.csv)
 - 由于其中没有缩写，这部分数据的缩写搜索暂不支持
 
 # 上线版本
+还在过审核
 
 
 # 背景
@@ -44,6 +45,7 @@
 - front-end: wx-miniprogramm
 - front-language: js+wxss+wxml
 - test-software: postman
+- https: supported
 
 # 前端的优化
 
@@ -53,5 +55,7 @@
 2. 删除按钮更灵活的显示
 3. 输入检测，防止乱输污染数据库
 4. 增加新功能（食堂菜单误
+
+
 
  
