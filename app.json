@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/search/search",
+    "pages/coupon/coupon",
+    "pages/upload/upload"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "KIT小助手",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/search/search",
+        "text": "密码搜索",
+        "iconPath": "pics/search.png",
+        "selectedIconPath": "pics/search.png"
+      },
+      {
+        "pagePath": "pages/upload/upload",
+        "text": "上传密码",
+        "iconPath": "pics/coupon.png",
+        "selectedIconPath": "pics/coupon.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap6.json"
+}

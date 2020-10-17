@@ -1,0 +1,41 @@
+<view class="page-section">
+  <view class="weui-cells__title">课程全名</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+  <input id="name" type="text" class="weui-input" auto-focus placeholder="全名(e.g: Hardware Co-Design)" bindblur="buildfullname"/>
+  </view>
+  </view>
+</view>
+
+<view class="page-section">
+  <view class="weui-cells__title">名字缩写</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+  <input id="name" type="text" class="weui-input" auto-focus placeholder="缩写(e.g: HCD)" bindblur="buildshortname"/>
+  </view>
+  </view>
+</view>
+
+<view class="page-section">
+  <view class="weui-cells__title">学期</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+  <input id="name" type="text" class="weui-input" auto-focus placeholder="学期(e.g: WS2021)" bindblur="buildsemester"/>
+  </view>
+  </view>
+</view>
+
+<view class="page-section">
+  <view class="weui-cells__title">ilias密码</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+  <input id="name" type="text" class="weui-input" auto-focus placeholder="密码(e.g: HCD2021)" bindblur="buildpass"/>
+  </view>
+  </view>
+</view>
+
+<view class="page-section">
+      <view class="weui-cells__title">
+      <button class="weui-form-preview__btn" bindtap="submit">提交密码</button>
+      </view>
+  </view>

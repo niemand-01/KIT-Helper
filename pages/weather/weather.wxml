@@ -1,0 +1,36 @@
+<!--pages/weather/weather.wxml-->
+<view class="container2">
+<!--region selector-->
+  <picker mode="region" bindchange="citychange">
+    <view>{{place}}</view>
+  </picker>
+
+<!--word-->
+  <text>{{weather.tmp}}°C {{weather.cond_txt}}</text>  
+<!--img-->
+  <image src = '{{weatherimg}}'></image>
+
+<!--detail-->
+  <view class="detailbox">
+    <view class="detailbar">
+      <view class="box">湿度</view>
+      <view class="box">气压</view>
+      <view class="box">能见度</view>
+    </view>
+    <view class="detailbar">
+      <view class="box">{{weather.hum}}%</view>
+      <view class="box">{{weather.pres}}hPa</view>
+      <view class="box">{{weather.vis}}km</view>
+    </view>
+    <view class="detailbar">
+      <view class="box">风向</view>
+      <view class="box">风速</view>
+      <view class="box">风力</view>
+    </view>
+    <view class="detailbar">
+      <view class="box">{{weather.wind_dir}}</view>
+      <view class="box">{{weather.wind_sc}}km/h</view>
+      <view class="box">{{weather.wind_spd}}km</view>
+    </view>
+  </view>
+</view>

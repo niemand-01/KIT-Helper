@@ -1,0 +1,4 @@
+/* pages/coupon/coupon.wxss */
+.btn{
+  border-radius: 12rpx;
+}

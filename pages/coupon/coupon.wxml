@@ -1,0 +1,3 @@
+<!--pages/coupon/coupon.wxml-->
+<button class="btn" bindtap="makeposter">get coupon!</button>
+<canvas canvas-id="canvas1" style="position:fixed;width:372px;height:135px"></canvas>

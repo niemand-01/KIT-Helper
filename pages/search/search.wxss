@@ -1,0 +1,84 @@
+/* pages/search/search.wxss */
+.container{
+  background: #eee;
+  height: 200rpx;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-wrapper{
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+  width: 90%;
+  background: #fff;
+  border-radius: 20rpx;
+}
+
+.input-wrapper .search-icon{
+  margin-left: 20rpx;
+  width: 32rpx;
+  height:32rpx;
+}
+
+.input-wrapper input{
+  margin-left: 10rpx;
+  color: #000;
+  font-size: 32rpx;
+  caret-color: #000;
+  width: 60%;
+}
+
+.input-wrapper .close-icon-wrapper{
+  position: absolute;
+  left:522rpx;
+  width: 32rpx;
+  height: 32rpx;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-wrapper .close-icon{
+  width:32rpx;
+  height: 32rpx;
+}
+
+.input-wrapper text{
+  position: absolute;
+  right: 80rpx;
+  width: 140rpx;
+  height:32rpx;
+  padding: 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  border-left: 2rpx solid #eee;
+}
+
+.klausur_wrapper{
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+}
+
+.klausur_wrapper .klausurImg{
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+}
+
+.klausurText{
+  display: flex;
+  flex-direction: column;
+  font-size: 30rpx;
+  justify-content: center;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+}

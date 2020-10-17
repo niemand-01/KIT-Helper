@@ -1,0 +1,9 @@
+<!--pages/index/home.wxml-->
+<view class="container1">
+  <image src='{{imgurl}}' class="img_1"></image>
+  <view class="love">
+    <text class="txt1">{{usrname}}我爱你</text>
+    <image src='../../pics/love.jpg' class="img_2"></image>
+  </view>
+  <button open-type="getUserInfo" bindgetuserinfo="myfunc">点击我更换头像和名字</button>
+</view>

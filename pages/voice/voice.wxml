@@ -1,0 +1,6 @@
+<view>
+ <button class="voiceBTN" bindtap="startRecord">开始录音</button>
+ <button class="voiceBTN" bindtap="stopRecord">停止录音</button>
+ <button class="voiceBTN" bindtap="playRecord">播放录音</button>
+ <image src='{{recordbtnpic}}' class="recordBTN" bindtouchstart="startRecord" bindtouchend="stopRecord"></image>
+</view>

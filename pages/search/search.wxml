@@ -1,0 +1,48 @@
+<!--pages/search/search.wxml-->
+<scroll-view>
+
+<view class="container">
+  <view class="input-wrapper">
+    <image class="search-icon" src="../../pics/search.png"></image>
+    <input placeholder="{{placeholder}}"
+    value="{{inputvalue}}"
+    bindinput="handleinput"
+    bindconfirm="handleconfirm"
+    bindfocus="handlefocus"
+    ></input>
+    <view class="close-icon-wrapper" wx:if="{{showCloseIcon}}" bindtap="clearvalue">
+    <image class="close-icon" src="../../pics/clear.png"></image>
+    </view>
+    <text bindtap="onTap">全名搜索</text>
+  </view>
+
+  <view class="input-wrapper">
+    <image class="search-icon" src="../../pics/search.png"></image>
+    <input placeholder="{{placeholder}}"
+    value="{{inputvalue1}}"
+    bindinput="handleinput1"
+    bindfocus="handlefocus1"
+    ></input>
+    <view class="close-icon-wrapper" wx:if="{{showCloseIcon1}}" bindtap="clearvalue1">
+    <image class="close-icon" src="../../pics/clear.png"></image>
+    </view>
+    <text bindtap="onTap1">缩写搜索</text>
+  </view>
+
+</view>
+
+<block wx:for="{{local_kurs_sammlung}}" wx:for-index="index" wx:for-item="item">
+  <view id="{{item.id}}" class="klausur_wrapper" bindtap="gotodetail">
+    <image src="{{item.kurs_bild_src}}" class="klausurImg"></image>
+    <view class="klausurText">
+      <view>Kurs Name: {{item.kurs_name}}</view>
+      <view>Kurs Semester: {{item.kurs_semester}}</view>
+      <view>Kurs Password: {{item.kurs_pass}}</view>
+    </view>
+  </view>
+</block>
+
+<block></block>
+
+
+</scroll-view>

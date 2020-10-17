@@ -1,0 +1,32 @@
+/* pages/weather/weather.wxss */
+.container2{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around
+}
+.detailbox{
+ width:100%;
+ display: flex;
+ flex-direction: column;
+ font-size: 20rpx;
+}
+.box{
+  width:33.3%;
+  text-align: center;
+}
+.detailbar{
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 0
+}
+
+image{
+  width: 200rpx;
+  height: 200rpx;
+}
+text{
+  color:aqua;
+  font-size: 150rpx;
+}
