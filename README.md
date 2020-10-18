@@ -29,7 +29,7 @@
 
 # 上线版本
 
-![这个](pics/scancode.png)
+![这个](pics/scancode.jpg)
 
 
 # 背景
